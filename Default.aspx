@@ -14,7 +14,7 @@
             background-color: #FFE87C;
         }
         #parent {
-            width: 75%;
+            width: 900px;
             margin: 0 auto;
             border-left: 3px solid;
             border-right: 3px solid;
@@ -36,8 +36,7 @@
             }
             #header img {
                 display: block;
-                margin-left: auto;
-                margin-right: auto;
+                margin: 30px auto 0 auto;
             }
         #container {
             height: 500px;
@@ -54,28 +53,30 @@
         .top-header {
             text-align: center;
         }
-        .info-panel-parent {
+        #info-panel-parent {
             font-family: 'Helvetica', sans-serif;
             border-radius: 8px;
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
-            margin: 75px 0 0 0;
+            margin: 75px auto 0 auto;
             border: 2px solid black;
             height: 247px;
+            width: 800px;
         }
-            .info-panel-parent h2 {
+            #info-panel-parent h2 {
                 font-family: 'Helvetica', sans-serif;
                 text-align: left;
                 margin-left: 30px;
                 list-style-image: url("/images/arrow.png"); /*NOT FUNCTIONAL*/
             }
-            .info-panel-parent ul li {
+            #info-panel-parent ul li {
                 float: left;
                 position: relative;
                 overflow: hidden;
                 background-color: #F5F3B4;
                 background-image: linear-gradient(#FFFFF5, #F5F3B4);
             }
+
         .info-panel-header {
             border-bottom: solid 2px black;
         }
@@ -114,7 +115,7 @@
                 Every year, over <span style="color:red;">500,000</span> children are reported missing.<br />
                 Sign up today to get your FREE Child Saftey Kit.
             </h2>
-            <div class="info-panel-parent">
+            <div id="info-panel-parent">
                 <div class="info-panel-header"><h2>Endorsed by:</h2></div>
                 <ul>
                     <li class="info-panel-child">
